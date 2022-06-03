@@ -1,0 +1,44 @@
+table,
+td {
+    border: 1px solid #333;
+    width:300px;
+    text-align: center;
+    margin:50px auto;
+
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+
+}
+body{
+  background: linear-gradient(to right, #37e1ff, #f3f7c6);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(73, 120, 238);
+    color: #fff;
+    cursor: pointer;
+}
